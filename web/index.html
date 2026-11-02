@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="多视角 JSON 与 Python Dict 浏览工具。">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="JLens">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <title>JLens · JSON 透镜</title>
+  <style>
+    html, body { margin: 0; background: #0e1420; color: #e1e7f1; }
+    #loading { position: fixed; inset: 0; display: grid; place-content: center;
+      text-align: center; background: #0e1420; font: 13px system-ui, sans-serif; }
+    #loading strong { color: #70e1c4; font-size: 36px; letter-spacing: -1px; }
+    #loading p { color: #8996ab; margin-top: 14px; }
+  </style>
+</head>
+<body>
+  <div id="loading" role="status"><strong>JLens</strong><p>正在打开数据工作台…</p></div>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
